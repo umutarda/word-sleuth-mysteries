@@ -5,7 +5,8 @@ export class ChatManager {
     constructor(scene) {
         this.chatHistory = [];
         this.characterDescription = scene.initPrompt;
-        this.baseUrl = scene.config.llm.llmApiUrl;
+        this.baseUrl = scene.config.llm.apiUrl;
+        this.llmOptions = scene.config.llm.options;
     }
 
     addMessage(role, content) {
@@ -41,10 +42,7 @@ export class ChatManager {
                 required: ["description"]
             },
             messages: fullMessages,
-            options: {
-                temperature: 0.9,
-                seed: -1
-            }
+            options: this.llmOptions
         };
 
         // Ollama currently may or may not support this param, but we include it

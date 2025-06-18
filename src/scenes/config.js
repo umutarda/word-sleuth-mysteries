@@ -36,7 +36,8 @@ export const MainSceneConfig = {
     llm:
     {
         modelName: GAME_CONFIG.MODEL_NAME,
-        llmApiUrl: GAME_CONFIG.LLM_API_URL
+        apiUrl: GAME_CONFIG.LLM_API_URL,
+        options: GAME_CONFIG.LLM_OPTIONS
     }
 };
 

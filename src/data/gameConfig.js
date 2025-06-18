@@ -4,6 +4,10 @@ export const GAME_CONFIG = {
     WORD_DEPTH: 5,
     ROUND_TIME: 120,
     MODEL_NAME: "llama3:latest",
-    LLM_API_URL: "http://localhost:11434/api/chat"
+    LLM_API_URL: "http://localhost:11434/api/chat",
+    LLM_OPTIONS: {
+        temperature: 0.5,
+        seed: -1
+    }
 }
 
