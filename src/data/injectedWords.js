@@ -1,0 +1,102 @@
+export const INJECTED_WORDS = {
+    "object": {
+        "count": 40,
+        "words": [
+            "Magnifying glass",
+            "Secret code",
+            "Dusty key",
+            "Muddy footprint",
+            "Hidden diary",
+            "Fingerprint kit",
+            "Mysterious map",
+            "Torn fabric",
+            "Coded message",
+            "Antique locket",
+            "Flickering flashlight",
+            "Walkie-talkie",
+            "Newspaper clipping",
+            "Oddly shaped stone",
+            "Forgotten toy",
+            "Misplaced glasses",
+            "Secret compartment",
+            "Recipe book",
+            "Cryptic note",
+            "Unusual button"
+        ]
+    },
+    "place": {
+        "count": 40,
+        "words": [
+            "Old library",
+            "Foggy pier",
+            "Creaky mansion",
+            "Town square",
+            "Hidden attic",
+            "Detective's clubhouse",
+            "School science lab",
+            "Bustling town market",
+            "Abandoned funhouse",
+            "Local museum",
+            "Cozy bakery",
+            "City park gazebo",
+            "Train station platform",
+            "Greenhouse",
+            "Secret garden",
+            "Ice cream parlor",
+            "Under the bleachers",
+            "The old mill",
+            "Bookstore cafe",
+            "Neighborhood treehouse"
+        ]
+    },
+    "people": {
+        "count": 40,
+        "words": [
+            "Mysterious client",
+            "Nosy neighbor",
+            "Grumpy groundskeeper",
+            "Friendly librarian",
+            "Clever rival detective",
+            "Town's police chief",
+            "Forgetful professor",
+            "Mischievous twin",
+            "Chatty mail carrier",
+            "Eccentric inventor",
+            "Helpful shopkeeper",
+            "Famous local artist",
+            "The new kid in town",
+            "A stray dog",
+            "A talented magician",
+            "The school principal",
+            "A fast-talking journalist",
+            "A baker with a secret",
+            "A gardener with a riddle",
+            "A mysterious magician"
+        ]
+    },
+    "event": {
+        "count": 40,
+        "words": [
+            "A sudden blackout",
+            "A secret meeting",
+            "The discovery of a clue",
+            "A chase through the market",
+            "A surprise confession",
+            "The local pet show",
+            "A town festival",
+            "An unexpected visitor",
+            "A riddle contest",
+            "The town's founding day",
+            "A magic show",
+            "A package delivery",
+            "A mysterious noise",
+            "A hidden message appears",
+            "The final countdown",
+            "A case of mistaken identity",
+            "A sudden rainstorm",
+            "A city-wide scavenger hunt",
+            "The big game",
+            "A school play"
+        ]
+    }
+};
